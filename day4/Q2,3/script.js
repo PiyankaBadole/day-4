@@ -11,7 +11,7 @@ req.onreadystatechange = function(){
 }
 
 
-req.open('GET','https://restcountries.com/v2/all')
+req.open('GET','https://restcountries.com/v3.1/all')
 
 
 req.send();
